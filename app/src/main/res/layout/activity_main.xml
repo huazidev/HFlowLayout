@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+    <com.huazidev.hflowlayout.view.HFlowLayout
+            android:layout_width="match_parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:padding="15dp"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_height="wrap_content">
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_tag"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:layout_margin="5dp"
+                android:text="tag1"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_tag"
+                android:layout_margin="5dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:text="this is tag2"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_tag"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:layout_margin="5dp"
+                android:text="this tag3"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_tag"
+                android:layout_margin="5dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:text="tag4"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_tag"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:layout_margin="5dp"
+                android:text="tag5"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_tag"
+                android:layout_margin="5dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:text="hahahaha tag6"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_tag"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:layout_margin="5dp"
+                android:text="lalalalalalalllllal tag7"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_tag"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:layout_margin="5dp"
+                android:text="lalalalalalalde tag8"/>
+
+    </com.huazidev.hflowlayout.view.HFlowLayout>
+
+
+    <com.huazidev.hflowlayout.view.HFlowLayout
+            android:layout_width="match_parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_height="wrap_content">
+
+
+        <TextView
+                android:layout_width="160dp"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:background="@color/colorPrimary"
+                android:text="view"/>
+
+        <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@color/colorPrimary"
+                android:text="view"/>
+
+        <TextView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_margin="5dp"
+                android:background="@color/colorPrimary"
+                android:text="view"/>
+
+        <TextView
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:background="@color/colorPrimary"
+                android:text="view"/>
+
+        <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@color/colorPrimary"
+                android:text="view"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@color/colorPrimary"
+                android:text="view"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@color/colorPrimary"
+                android:text="view"/>
+
+        <TextView
+                android:layout_width="80dp"
+                android:layout_height="30dp"
+                android:layout_margin="5dp"
+                android:background="@color/colorPrimary"
+                android:text="view"/>
+
+        <TextView
+                android:layout_width="1080dp"
+                android:layout_height="30dp"
+                android:layout_margin="5dp"
+                android:background="@color/colorPrimary"
+                android:text="view"/>
+
+
+    </com.huazidev.hflowlayout.view.HFlowLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
