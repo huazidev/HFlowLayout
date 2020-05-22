@@ -3,4 +3,4 @@
 
 实现效果如下图：
 
-![](/hflowlayout-sceenshot.png)
+![image](https://github.com/huazidev/HFlowLayout/blob/master/hflowlayout-sceenshot.png)
